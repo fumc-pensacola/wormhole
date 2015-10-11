@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49D491C41BCA0F41004B4D0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D491C31BCA0F41004B4D0E /* AppDelegate.swift */; };
+		49D491C61BCA0F41004B4D0E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D491C51BCA0F41004B4D0E /* FirstViewController.swift */; };
+		49D491C81BCA0F41004B4D0E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D491C71BCA0F41004B4D0E /* SecondViewController.swift */; };
+		49D491CB1BCA0F41004B4D0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49D491C91BCA0F41004B4D0E /* Main.storyboard */; };
+		49D491CD1BCA0F41004B4D0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49D491CC1BCA0F41004B4D0E /* Assets.xcassets */; };
+		49D491D81BCA0F41004B4D0E /* FUMC_TVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D491D71BCA0F41004B4D0E /* FUMC_TVTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49D491D41BCA0F41004B4D0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49D491B81BCA0F41004B4D0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49D491BF1BCA0F41004B4D0E;
+			remoteInfo = "FUMC-TV";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49D491C01BCA0F41004B4D0E /* FUMC-TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FUMC-TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49D491C31BCA0F41004B4D0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49D491C51BCA0F41004B4D0E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		49D491C71BCA0F41004B4D0E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		49D491CA1BCA0F41004B4D0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49D491CC1BCA0F41004B4D0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49D491CE1BCA0F41004B4D0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49D491D31BCA0F41004B4D0E /* FUMC-TVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FUMC-TVTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49D491D71BCA0F41004B4D0E /* FUMC_TVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FUMC_TVTests.swift; sourceTree = "<group>"; };
+		49D491D91BCA0F41004B4D0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49D491BD1BCA0F41004B4D0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49D491D01BCA0F41004B4D0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49D491B71BCA0F40004B4D0E = {
+			isa = PBXGroup;
+			children = (
+				49D491C21BCA0F41004B4D0E /* FUMC-TV */,
+				49D491D61BCA0F41004B4D0E /* FUMC-TVTests */,
+				49D491C11BCA0F41004B4D0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49D491C11BCA0F41004B4D0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49D491C01BCA0F41004B4D0E /* FUMC-TV.app */,
+				49D491D31BCA0F41004B4D0E /* FUMC-TVTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49D491C21BCA0F41004B4D0E /* FUMC-TV */ = {
+			isa = PBXGroup;
+			children = (
+				49D491C31BCA0F41004B4D0E /* AppDelegate.swift */,
+				49D491C51BCA0F41004B4D0E /* FirstViewController.swift */,
+				49D491C71BCA0F41004B4D0E /* SecondViewController.swift */,
+				49D491C91BCA0F41004B4D0E /* Main.storyboard */,
+				49D491CC1BCA0F41004B4D0E /* Assets.xcassets */,
+				49D491CE1BCA0F41004B4D0E /* Info.plist */,
+			);
+			path = "FUMC-TV";
+			sourceTree = "<group>";
+		};
+		49D491D61BCA0F41004B4D0E /* FUMC-TVTests */ = {
+			isa = PBXGroup;
+			children = (
+				49D491D71BCA0F41004B4D0E /* FUMC_TVTests.swift */,
+				49D491D91BCA0F41004B4D0E /* Info.plist */,
+			);
+			path = "FUMC-TVTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49D491BF1BCA0F41004B4D0E /* FUMC-TV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49D491DC1BCA0F41004B4D0E /* Build configuration list for PBXNativeTarget "FUMC-TV" */;
+			buildPhases = (
+				49D491BC1BCA0F41004B4D0E /* Sources */,
+				49D491BD1BCA0F41004B4D0E /* Frameworks */,
+				49D491BE1BCA0F41004B4D0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FUMC-TV";
+			productName = "FUMC-TV";
+			productReference = 49D491C01BCA0F41004B4D0E /* FUMC-TV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49D491D21BCA0F41004B4D0E /* FUMC-TVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49D491DF1BCA0F41004B4D0E /* Build configuration list for PBXNativeTarget "FUMC-TVTests" */;
+			buildPhases = (
+				49D491CF1BCA0F41004B4D0E /* Sources */,
+				49D491D01BCA0F41004B4D0E /* Frameworks */,
+				49D491D11BCA0F41004B4D0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49D491D51BCA0F41004B4D0E /* PBXTargetDependency */,
+			);
+			name = "FUMC-TVTests";
+			productName = "FUMC-TVTests";
+			productReference = 49D491D31BCA0F41004B4D0E /* FUMC-TVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49D491B81BCA0F41004B4D0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "FUMC Pensacola";
+				TargetAttributes = {
+					49D491BF1BCA0F41004B4D0E = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					49D491D21BCA0F41004B4D0E = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 49D491BF1BCA0F41004B4D0E;
+					};
+				};
+			};
+			buildConfigurationList = 49D491BB1BCA0F41004B4D0E /* Build configuration list for PBXProject "FUMC-TV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49D491B71BCA0F40004B4D0E;
+			productRefGroup = 49D491C11BCA0F41004B4D0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49D491BF1BCA0F41004B4D0E /* FUMC-TV */,
+				49D491D21BCA0F41004B4D0E /* FUMC-TVTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49D491BE1BCA0F41004B4D0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D491CD1BCA0F41004B4D0E /* Assets.xcassets in Resources */,
+				49D491CB1BCA0F41004B4D0E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49D491D11BCA0F41004B4D0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49D491BC1BCA0F41004B4D0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D491C81BCA0F41004B4D0E /* SecondViewController.swift in Sources */,
+				49D491C41BCA0F41004B4D0E /* AppDelegate.swift in Sources */,
+				49D491C61BCA0F41004B4D0E /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49D491CF1BCA0F41004B4D0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D491D81BCA0F41004B4D0E /* FUMC_TVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49D491D51BCA0F41004B4D0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49D491BF1BCA0F41004B4D0E /* FUMC-TV */;
+			targetProxy = 49D491D41BCA0F41004B4D0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49D491C91BCA0F41004B4D0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49D491CA1BCA0F41004B4D0E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49D491DA1BCA0F41004B4D0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		49D491DB1BCA0F41004B4D0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49D491DD1BCA0F41004B4D0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "FUMC-TV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fumcpensacola.FUMC-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49D491DE1BCA0F41004B4D0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "FUMC-TV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fumcpensacola.FUMC-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		49D491E01BCA0F41004B4D0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "FUMC-TVTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fumcpensacola.FUMC-TVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FUMC-TV.app/FUMC-TV";
+			};
+			name = Debug;
+		};
+		49D491E11BCA0F41004B4D0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "FUMC-TVTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fumcpensacola.FUMC-TVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FUMC-TV.app/FUMC-TV";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49D491BB1BCA0F41004B4D0E /* Build configuration list for PBXProject "FUMC-TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49D491DA1BCA0F41004B4D0E /* Debug */,
+				49D491DB1BCA0F41004B4D0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49D491DC1BCA0F41004B4D0E /* Build configuration list for PBXNativeTarget "FUMC-TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49D491DD1BCA0F41004B4D0E /* Debug */,
+				49D491DE1BCA0F41004B4D0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49D491DF1BCA0F41004B4D0E /* Build configuration list for PBXNativeTarget "FUMC-TVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49D491E01BCA0F41004B4D0E /* Debug */,
+				49D491E11BCA0F41004B4D0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49D491B81BCA0F41004B4D0E /* Project object */;
+}
